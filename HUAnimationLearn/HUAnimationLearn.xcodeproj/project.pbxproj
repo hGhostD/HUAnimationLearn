@@ -13,6 +13,7 @@
 		7568FECD24976AE1003BF349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7568FECB24976AE1003BF349 /* Main.storyboard */; };
 		7568FECF24976AE6003BF349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7568FECE24976AE6003BF349 /* Assets.xcassets */; };
 		7568FED224976AE6003BF349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7568FED024976AE6003BF349 /* LaunchScreen.storyboard */; };
+		75BB5FB724977DD200C538B1 /* HUBezierCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BB5FB624977DD200C538B1 /* HUBezierCircleController.swift */; };
 		A8707AC533346A50A7870275 /* Pods_HUAnimationLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357F863273D6045BBB1C9B27 /* Pods_HUAnimationLearn.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		7568FECE24976AE6003BF349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7568FED124976AE6003BF349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7568FED324976AE6003BF349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75BB5FB624977DD200C538B1 /* HUBezierCircleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUBezierCircleController.swift; sourceTree = "<group>"; };
 		EF22E02C34DCEC83538EB3F7 /* Pods-HUAnimationLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUAnimationLearn.release.xcconfig"; path = "Target Support Files/Pods-HUAnimationLearn/Pods-HUAnimationLearn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 		7568FEC424976AE1003BF349 /* HUAnimationLearn */ = {
 			isa = PBXGroup;
 			children = (
+				75BB5FB52497792A00C538B1 /* 第二章 */,
 				7568FED924976C3E003BF349 /* Other */,
 			);
 			path = HUAnimationLearn;
@@ -88,6 +91,14 @@
 				7568FED324976AE6003BF349 /* Info.plist */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		75BB5FB52497792A00C538B1 /* 第二章 */ = {
+			isa = PBXGroup;
+			children = (
+				75BB5FB624977DD200C538B1 /* HUBezierCircleController.swift */,
+			);
+			path = "第二章";
 			sourceTree = "<group>";
 		};
 		8C4E1740F6C78A4A06DA4621 /* Pods */ = {
@@ -197,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7568FECA24976AE1003BF349 /* ViewController.swift in Sources */,
+				75BB5FB724977DD200C538B1 /* HUBezierCircleController.swift in Sources */,
 				7568FEC624976AE1003BF349 /* AppDelegate.swift in Sources */,
 				7568FEC824976AE1003BF349 /* SceneDelegate.swift in Sources */,
 			);
